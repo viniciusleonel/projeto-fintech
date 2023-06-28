@@ -1,0 +1,11 @@
+.bg-img {
+    background-image: url(../img/inovacao-e-tecnologia.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    margin-top: 25%;
+}
