@@ -36,6 +36,18 @@
     background: var(--bg-btn-blue);
 }
 
+.home {
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.home:hover {
+    border-color: transparent;
+}
+
 @media(max-width: 800px){
     .bg-img{
         background-position: 53% 50%;
