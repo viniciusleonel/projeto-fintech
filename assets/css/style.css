@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Zen Antique', serif;
     font-weight: 300;
     font-size: 1.6rem;
@@ -16,14 +16,19 @@
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .btn {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bg-btn-dark {
     background: var(--bg-btn-dark);
+}
+
+.bg-btn-blue {
+    background: var(--bg-btn-blue);
 }
 
 .bg-btn-dark:hover, .bg-btn-blue:hover {
@@ -32,24 +37,9 @@
     border-color: black;
 }
 
-.bg-btn-blue {
-    background: var(--bg-btn-blue);
-}
-
-.home {
-    background-color: transparent;
-    border-color: transparent;
-    text-decoration: none;
-    color: white;
-    font-size: large;
-}
-
-.home:hover {
-    border-color: transparent;
-}
-
-@media(max-width: 800px){
+@media(max-width: 1300px){
     .bg-img{
-        background-position: 53% 50%;
+        background-position: 55% 50%;
+        height: 100vh;
     }
 }
