@@ -8,6 +8,7 @@
 :root{
     --bg-btn-dark: rgba(0, 0, 0, 0.5);
     --bg-btn-blue: rgba(33, 48, 190, 0.4);
+    --bg-btn-data: rgb(89, 117, 214);
 }
 
 .bg-img {
@@ -29,7 +30,6 @@
     background-color: transparent;
     color: white;
     border-color: black;
-
 }
 
 .bg-btn-blue {

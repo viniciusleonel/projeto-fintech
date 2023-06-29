@@ -40,7 +40,29 @@
             <h1 class="col-12 d-flex justify-content-center fs-1">Fintech</h1>
         </div>
         <div class="d-grid gap-2 justify-content-center my-5 ">
-            <a class="btn btn-primary bg-btn-dark" href="#" role="button">Já tenho uma conta</a>
+            <button type="button" class="btn btn-primary bg-btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Já tenho uma conta
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content modal-bg-img bg-img">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Fintech</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2 class="fs-6">Bem-vindo de volta!</h2>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary bg-btn-dark" data-bs-dismiss="modal">Voltar</button>
+                        <button type="button" class="btn btn-primary bg-btn-blue modal-btn">Entrar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
