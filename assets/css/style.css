@@ -37,6 +37,20 @@ body {
     border-color: black;
 }
 
+.form-area {
+    background-color: var(--bg-btn-data);
+    border-color: var(--bg-btn-blue);
+    color: white;
+}
+
+.btn-logar:hover {
+    background-color: var(--bg-btn-data);
+}
+
+.home {
+    text-decoration: none;
+}
+
 @media(max-width: 1300px){
     .bg-img{
         background-position: 55% 50%;

@@ -34,41 +34,94 @@
             <div class="container my-3 position-absolute top-50 start-50 translate-middle">
                 <h3 class="justify-content-start col-6 fs-3 px-4 pb-5">Tecnologia e finanças finalmente JUNTOS</h3>
             </div>
-            <div class="d-grid gap-2 col-12 justify-content-center my-5 position-absolute bottom-0 start-50 translate-middle-x">
-                <a class="btn btn-primary bg-btn-dark" href="./assets/pages/logar.html" role="button">Já tenho uma
-                    conta</a>
-                <a class="btn btn-primary bg-btn-blue" href="./assets/pages/abrir-conta.html" role="button">Abrir minha
-                    conta</a>
+            <div
+                class="d-grid gap-2 col-12 justify-content-center my-5 position-absolute bottom-0 start-50 translate-middle-x">
 
-                <!-- <div class="d-grid gap-2 justify-content-center my-5 ">
                 <button type="button" class="btn btn-primary bg-btn-dark" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Já tenho uma conta
+                    data-bs-target="#logar">
+                    Já tenho uma
+                    conta
+                </button>
+
+                <button type="button" class="btn btn-primary bg-btn-blue" data-bs-toggle="modal"
+                    data-bs-target="#abrirconta">
+                    Abrir minha
+                    conta
                 </button>
             </div>
 
-            Modal
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content modal-bg-img bg-img">
+            <!-- Modal logar-->
+            <div class="modal fade " id="logar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content bg-img container">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Fintech</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h2 class="fs-6">Bem-vindo de volta!</h2>
+                            <h1 class="modal-title fs-2" id="exampleModalLabel">Fintech</h1>
 
+                            <button type="button" class="btn-close form-area" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary bg-btn-dark"
-                                data-bs-dismiss="modal">Voltar</button>
-                            <button type="button" class="btn btn-primary bg-btn-blue modal-btn">Entrar</button>
+                        <div class="modal-body ">
+                            <div class="mb-3">
+                                <h3 class="my-5 fs-3">Bem-vindo de volta!</h3>
+
+                                <label for="email" class="form-label fs-4">Email</label>
+                                <input type="email" class="form-control form-area" id="email"
+                                    placeholder="name@example.com">
+                            </div> 
+
+                            <div class="mb-3">
+                                <label for="senha" class="form-label fs-4">Senha</label>
+                                <input type="password" class="form-control form-area" id="senha">
+                            </div>
+
+                            <div class="container d-flex justify-content-center my-5">
+                                <a href="./assets/pages/conta.html" class="btn btn-primary bg-btn-dark col-6 btn-logar">Entrar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
+            <!-- Modal Abrir Conta  -->
+            <div class="modal fade " id="abrirconta" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog ">
+                <div class="modal-content bg-img container">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-2" id="exampleModalLabel">Fintech</h1>
+
+                        <button type="button" class="btn-close form-area" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body ">
+
+                        <div class="my-3">
+                            <label for="nome" class="form-label fs-4">Nome</label>
+                            <input type="text" class="form-control form-area" id="nome">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label fs-4">Email</label>
+                            <input type="email" class="form-control form-area" id="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="senha" class="form-label fs-4">Senha</label>
+                            <input type="password" class="form-control form-area" id="senha">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="senha" class="form-label fs-4">Corfirmar Senha</label>
+                            <input type="password" class="form-control form-area" id="senha">                            
+                        </div>
+
+                        <div class="container d-flex justify-content-center my-5">
+                            <a href="./assets/pages/conta.html" class="btn btn-primary bg-btn-blue col-6 btn-logar">Criar Conta</a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
