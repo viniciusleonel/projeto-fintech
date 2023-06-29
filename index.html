@@ -61,22 +61,29 @@
                                 aria-label="Close"></button>
                         </div>
                         <div class="modal-body ">
-                            <div class="mb-3">
-                                <h3 class="my-5 fs-3">Bem-vindo de volta!</h3>
 
-                                <label for="email" class="form-label fs-4">Email</label>
-                                <input type="email" class="form-control form-area" id="email"
-                                    placeholder="name@example.com">
-                            </div> 
+                            <form action="/index.html">
 
-                            <div class="mb-3">
-                                <label for="senha" class="form-label fs-4">Senha</label>
-                                <input type="password" class="form-control form-area" id="senha" placeholder="******">
-                            </div>
+                                <div class="mb-3">
+                                    <h3 class="my-5 fs-3">Bem-vindo de volta!</h3>
 
-                            <div class="container d-flex justify-content-center my-5">
-                                <a href="./assets/pages/conta.html" class="btn btn-primary bg-btn-dark col-6 btn-logar">Entrar</a>
-                            </div>
+                                    <label for="email" class="form-label fs-4">Email</label>
+                                    <input type="email" class="form-control form-area" id="email"
+                                        placeholder="name@example.com" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="senha" class="form-label fs-4">Senha</label>
+                                    <input type="password" class="form-control form-area" id="senha"
+                                        placeholder="******" required>
+                                </div>
+
+                                <div class="container d-flex justify-content-center my-5">
+                                    <button type="submit" class="btn btn-primary bg-btn-blue col-6 btn-logar">
+                                        Entrar
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -84,46 +91,56 @@
 
             <!-- Modal Abrir Conta  -->
             <div class="modal fade " id="abrirconta" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog ">
-                <div class="modal-content bg-img container">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-2" id="exampleModalLabel">Fintech</h1>
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content bg-img container">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-2" id="exampleModalLabel">Fintech</h1>
 
-                        <button type="button" class="btn-close form-area" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                    </div>
-
-                    <div class="modal-body ">
-
-                        <div class="my-3">
-                            <label for="nome" class="form-label fs-4">Nome</label>
-                            <input type="text" class="form-control form-area" id="nome" placeholder="Vinícius Leonel">
+                            <button type="button" class="btn-close form-area" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="email" class="form-label fs-4">Email</label>
-                            <input type="email" class="form-control form-area" id="email" placeholder="name@example.com">
-                        </div>
+                        <div class="modal-body ">
 
-                        <div class="mb-3">
-                            <label for="senha" class="form-label fs-4">Senha</label>
-                            <input type="password" class="form-control form-area" id="senha" placeholder="******">
-                        </div>
+                            <form action="/index.html">
 
-                        <div class="mb-3">
-                            <label for="senha" class="form-label fs-4">Corfirmar Senha</label>
-                            <input type="password" class="form-control form-area" id="senha" placeholder="******">                            
-                        </div>
+                                <div class="my-3">
+                                    <label for="nome" class="form-label fs-4">Nome</label>
+                                    <input type="text" class="form-control form-area" id="nome"
+                                        placeholder="Vinícius Leonel" required>
+                                </div>
 
-                        <div class="container d-flex justify-content-center my-5">
-                            <a href="./assets/pages/conta.html" class="btn btn-primary bg-btn-blue col-6 btn-logar">Criar Conta</a>
-                        </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fs-4">Email</label>
+                                    <input type="email" class="form-control form-area" id="email"
+                                        placeholder="name@example.com" required>
+                                </div>
 
+                                <div class="mb-3">
+                                    <label for="senha" class="form-label fs-4">Senha</label>
+                                    <input type="password" class="form-control form-area" id="senha"
+                                        placeholder="******" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="senha" class="form-label fs-4">Corfirmar Senha</label>
+                                    <input type="password" class="form-control form-area" id="senha"
+                                        placeholder="******" required>
+                                </div>
+
+                                <div class="container d-flex justify-content-center my-5">
+                                    <button type="submit" class="btn btn-primary bg-btn-blue col-6 btn-logar">
+                                        Criar Conta
+                                    </button>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- JS BS -->
