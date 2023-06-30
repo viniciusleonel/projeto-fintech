@@ -51,6 +51,10 @@ body {
     text-decoration: none;
 }
 
+input:invalid {
+    border: 2px inset red;
+}
+
 @media(max-width: 1300px){
     .bg-img{
         background-position: 55% 50%;
