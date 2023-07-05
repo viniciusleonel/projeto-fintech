@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Tai Heritage Pro
+- Font Author: Copyright (c) 1995-2017, SIL International (www.sil.org)
+- Font Source: http://fonts.gstatic.com/s/taiheritagepro/v6/sZlfdQid-zgaNiNIYcUzJMU3IYyNoHxSENxuLuE.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
