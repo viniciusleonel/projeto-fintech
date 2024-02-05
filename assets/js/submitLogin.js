@@ -10,6 +10,22 @@ function submitLogin() {
         body: JSON.stringify(Object.fromEntries(formData))
     })
     .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error("Erro ao realizar login", error));
+
+    .then(data => {
+        console.log(data);
+        window.location.href = "assets/pages/nav.html";
+    })
+
+    .catch(error => {
+        console.error("Erro ao logar!", error);
+        exibirMensagemLogin('error', 'Dados inválidos!');
+    });
 }
+
+function exibirMensagemLogin(tipo, mensagem) {
+    var mensagemElement = document.getElementById("mensagemLogin");
+    mensagemElement.classList.add('alert-' + tipo);
+    mensagemElement.innerText = mensagem;
+    mensagemElement.style.display = 'block';  // Altera para 'block' para torná-lo visível
+}
+

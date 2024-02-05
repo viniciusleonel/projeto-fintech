@@ -1,6 +1,5 @@
 body {
-    font-family: 'Zen Antique', serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.6rem;
     color: white;
 }
@@ -11,13 +10,7 @@ body {
     --bg-btn-data: rgb(89, 117, 214);
 }
 
-.bg-img {
-    background-image: url(../img/inovacao-e-tecnologia.jpg);
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+
 
 .btn {
     font-size: 18px;
@@ -41,6 +34,11 @@ body {
     background-color: var(--bg-btn-data);
     border-color: var(--bg-btn-blue);
     color: white;
+}
+
+.dropdown-item:hover{
+	background-color: #B0C4DE;
+	font-weight: 500;
 }
 
 .btn-logar:hover {

@@ -22,6 +22,7 @@
 
     <!-- Minha CSS  -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
 </head>
 
 <body class="bg-img ">
@@ -64,9 +65,11 @@
 
                             <form id="formLogin">
 
+                                <div id="mensagemLogin" class="alert" role="alert" style="display: none;"></div>
+
                                 <div class="mb-3">
                                     <h3 class="my-5 fs-3">Bem-vindo de volta!</h3>
-
+                                    
                                     <label for="email" class="form-label fs-4">Email</label>
                                     <input type="email" class="form-control form-area" name="email" id="email"
                                         placeholder="name@example.com" required>
@@ -83,6 +86,7 @@
                                         Entrar
                                     </button>
                                 </div>
+                                
                             </form>
                         </div>
                     </div>
@@ -104,6 +108,8 @@
                         <div class="modal-body ">
 
                             <form id="formCadastro">
+
+                                <div id="mensagemCadastro" class="alert" role="alert" style="display: none;"></div>
 
                                 <div class="my-3">
                                     <label for="login" class="form-label fs-4">Nome</label>

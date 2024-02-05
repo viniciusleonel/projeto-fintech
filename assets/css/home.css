@@ -1,0 +1,33 @@
+body {
+    font-family: 'Zen Antique', serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.bg-img {
+    background-image: url(../img/inovacao-e-tecnologia.jpg);
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#mensagem {
+    display: none;
+    margin-top: 10px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: rgb(89, 117, 214);
+    border: 2px inset green;
+}
+
+.alert-error {
+    padding: .5rem;
+    text-align: center;
+    color: #721c24;
+    background-color: rgb(89, 117, 214);
+    border: 2px inset red;
+}
