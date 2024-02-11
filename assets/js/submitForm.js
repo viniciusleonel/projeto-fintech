@@ -2,7 +2,7 @@ function submitForm() {
     var form = document.getElementById("formCadastro");
     var formData = new FormData(form);
 
-    fetch("http://localhost:8080/usuarios", {
+    fetch("http://localhost:8080/usuarios/cadastrar", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
